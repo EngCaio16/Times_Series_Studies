@@ -1,6 +1,5 @@
 # Times_Series_Studies
 
-Aqui está uma descrição bem estruturada para o seu repositório no GitHub, destacando os objetivos e a abordagem de cada modelo:  
 
 ---
 
