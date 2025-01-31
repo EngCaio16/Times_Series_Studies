@@ -40,14 +40,7 @@ This repository contains two time series forecasting projects using **Statsmodel
 - SARIMAX effectively captured seasonal temperature variations in Madrid.  
 - Both models highlight the importance of **stationarity, seasonal components, and hyperparameter tuning** in time series forecasting.  
 
-## **How to Use**  
-Clone the repository and install the required dependencies:  
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
-pip install -r requirements.txt
-```
-Run the notebooks to explore the datasets and forecasts.  
+
 
 
 ---  
