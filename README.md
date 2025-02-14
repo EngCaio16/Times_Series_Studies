@@ -18,7 +18,7 @@ This repository contains two time series forecasting projects using **Statsmodel
 - Tuned ARIMA hyperparameters **(p, d, q)** to optimize forecast accuracy.  
 - Evaluated model performance with **residual diagnostics and AIC/BIC selection**.  
 
-### **2️⃣ SARIMAX: Forecasting Madrid’s Average Temperature**  
+### **2️⃣ SARIMA: Forecasting Madrid’s Average Temperature**  
 📌 **Dataset:** [Madrid Daily Weather](https://www.kaggle.com/datasets/mahdiehhajian/madrid-daily-weather)  
 🌡 **Objective:** Predict Madrid’s average temperature using a seasonal time series model.  
 🔧 **Approach:**  
@@ -26,7 +26,23 @@ This repository contains two time series forecasting projects using **Statsmodel
 - Conducted **seasonality analysis** and applied differencing to remove trends.  
 - Optimized seasonal parameters **(P, D, Q, s)** using model selection criteria.  
 - Included **confidence intervals** in the forecast to assess uncertainty.  
-- Used **SARIMAX** to explore potential external regressors (if applicable).  
+- Used **SARIMAX** to explore potential external regressors (if applicable).
+
+
+
+### ** 3 SARIMAX:  Forecasting Instambul's Traffic 
+
+This repository contains a time series analysis project focusing on daily traffic patterns in Istanbul. The study employs the **SARIMAX (Seasonal AutoRegressive Integrated Moving Average with eXogenous factors)** model, incorporating **public holidays as exogenous variables** to improve forecasting accuracy.  Source: https://www.kaggle.com/datasets/leonardo00/istanbul-traffic-index
+
+## 📌 Key Features:  
+- **Traffic Profile Analysis:** Examines daily traffic trends in Istanbul.  
+- **SARIMAX Model Implementation:** Uses seasonal ARIMA with external regressors (holidays) for enhanced prediction.  
+- **Exogenous Variables:** Public holidays are considered as external factors affecting traffic patterns.  
+- **Data Preprocessing & Visualization:** Includes data cleaning, feature engineering, and exploratory data analysis.  
+- **Forecasting & Model Evaluation:** Compares predictions with actual traffic data to assess model performance.  
+
+This project provides valuable insights into how external factors like holidays influence urban traffic, offering a **data-driven approach to transportation planning and decision-making.**  
+
 
 ## **Tools & Libraries**  
 ✔ **Python**  
